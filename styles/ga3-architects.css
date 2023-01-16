@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 700;
+    background: #FF900E;
+    color: #fff;
+    border: none;
+    padding: 21px 25px;
+    font-size: 20px;
+} 
+
+.bg{
+    background-color: #fff;
+}
+
+/* Heade Section Style */
+.primary-header{
+    /* width: 1920px; */
+    background-color: #FF900E1A;
+    ;
+}
+.primary-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 240px 50px 228px;
+}
+.nav-title{
+    font-size: 53px;
+    font-weight: 700;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+.nav-menu li{
+    list-style: none;
+    margin-left: 50px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* Header Content Style */
+.header-container{
+    text-align: center;
+    padding: 0px 529px;
+}
+.h-container-title{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.h-container-description{
+    font-weight: 400;
+    color: #727272;
+    margin-top: 22px;
+    margin-bottom: 32px;
+}
+
+.h-banner{
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Main Section Style */
+
+.main-container{
+    padding: 85px 240px;
+}
+.m-container-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.list-features-section{
+    display: flex;
+    gap: 76px;
+    padding: 0 60px;
+}
+.list-features-content{
+    margin-top: 230px;
+}
+.f-content-title{
+    font-size: 45px;
+    font-weight: 700;
+    width: 468px;
+    margin-bottom: 24px;
+}
+.f-content-title .color-cy{
+    color: #727272;
+}
+.f-content-title .color-ye{
+    color: #FF900E;
+}
+.f-content-description{
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+
+.features-items-container{
+    margin-top: 130px;
+    display: flex;
+    gap: 120px;
+}
+.f-items-title h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 53px;
+    margin-left: 21px;
+    margin-bottom: 24px;
+}
+.f-items-title{
+    position: relative;
+}
+.f-items-title::before{
+    content: "";
+    border-left: 5px solid #FF900E;
+    display: block;
+    position: absolute;
+    height: 106px;
+    top: 0;
+    left: -1px;
+}
+
+.f-items-description{
+    font-weight: 400;
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.features-item{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+
+.items-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.items-description{
+    font-weight: 400;
+    color: #727272;
+}
+
+.btn-ex {
+    height: 180px;
+    padding: 46px 42px;
+}
+.btn-ex h3{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: ;
+}
+.btn-ex p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Fact Section Style */
+
+.fact-container{
+    margin-top: 130px;
+}
+.fact-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.fact-description{
+    font-weight: 400;
+    color: #727272;
+    width: 542px;
+    line-height: 26px;
+    margin-bottom: 175px;
+}
+
+.fact-item{
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+    padding: 45px 35px;
+    text-align: center;
+}
+
+.fact-items-list{
+    display: flex;
+    gap: 80px;
+    padding: 0 50px;
+}
+.fact-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.fact-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+/* Sponsor Section Style */
+.sponsor-container{
+    margin-top: 180px;
+}
+.sponsor-content{
+    text-align: center;
+    align-items: center;
+}
+.sponsor-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.sponsor-description{
+    font-weight: 400;
+    color: #727272;
+    width: 542px;
+    padding: 0 360px;
+    margin-bottom: 50px;
+}
+.sponsor-list{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.footer-container{
+    padding: 0 240px;
+}
+.footer-content{
+    background-color: #FFF4E7;
+    border-radius: 10px;
+}
+.footer-content p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+    padding: 39px 0;
+    text-align: center;
+}
